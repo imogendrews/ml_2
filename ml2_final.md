@@ -7,6 +7,11 @@ My goal for this project was to generate images using Stable Diffusion 3.5 to be
 ### Image Generation 
 I first downloaded Stable Diffusion 3.5 from Hugging Face onto one of the desktops in the CTech room. Using ComfyUI, I generated 100 images for each of five different prompts. My goal is to eventually generate 100 images for 30 prompts; however, I underestimated how long the process would take.
 
+Below is an example of my ComfyUI setup::
+
+![ComfyUI left](./img/comfy_1.png) 
+![ComfyUI right](./img/comfy_2.png) 
+
 To speed things up, I ran these prompts overnight at the university, setting the batch size to 10 and queuing the prompt 10 times, which took six hours to complete. I initially attempted to use a batch size of 100, but the program refused to run due to limited GPU space. I also chose not to reduce the resolution of the images, as I found that anything below 1024x1024 produced overly simplistic results that did not accurately reflect the capabilities of the latest version of Stable Diffusion.
 
 As a result, I have attached the five prompts I was able to process so far:
